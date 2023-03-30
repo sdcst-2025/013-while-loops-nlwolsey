@@ -5,24 +5,11 @@ Objectives:
 * To repeat a loop until a boolean condition is met
 * Break out of while loops to prevent infinite loops
 
-There are times when you might want to keep repeating a block of
-code endlessly until a specific condition is met.  For example,
-you might want to allow a user unlimited opportunities to try
-guessing their password and deny them access until they get it
-right, or until they reach a specific number of attempts.
-Another time you might want to repeat a block of code endlessly
-is if you're trying to repeat a number of steps, but don't know
-how many steps are going to be taken.  An example might be in a
-number guessing game.  You might want people to keep guessing
-until they have reached the correct number.
+There are times when you might want to keep repeating a block of code endlessly until a specific condition is met.  For example, you might want to allow a user unlimited opportunities to try guessing their password and deny them access until they get it right, or until they reach a specific number of attempts. Another time you might want to repeat a block of code endlessly is if you're trying to repeat a number of steps, but don't know how many steps are going to be taken.  An example might be in a number guessing game.  You might want people to keep guessing until they have reached the correct number.
 
-A while loop checks a condition, and if the condition is True,
-it executes the block of code, and will keep doing so until the
-condition is False
+A while loop checks a condition, and if the condition is True, it executes the block of code, and will keep doing so until the condition is False
 
-Sometimes, however, you might need to program in a "failsafe",
-a way to break out of the program if it looks like the condition
-might never be False.  Then the "break" command can be used.
+Sometimes, however, you might need to program in a "failsafe", a way to break out of the program if it looks like the condition might never be False.  Then the "break" command can be used.
 
 Look at the example programs to see how a While loop operates.
 
@@ -76,3 +63,6 @@ Example:
 1 1 2 3 5
 (2 points) 
 
+##### Challenge
+Some excellent problems to test your use of while loops and lists/strings can be found in the repostiory located at https://github.com/sdcst11/100d-algorithms
+Fork this repository and try these for an added challenge if you are done.

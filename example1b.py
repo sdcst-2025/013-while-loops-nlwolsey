@@ -9,7 +9,7 @@ will continue to run until the incorrectName is False (a double negative!)
 name = ""
 incorrectName = True
 while incorrectName:
-    name = input("Who is your favorite cartoon character?").strip()
+    name = input("Who is your favorite cartoon character?")
     if name != "Marvin the Martian":
         print("  You can't be serious.")
     else:

@@ -13,7 +13,7 @@ name = ""
 correctName = False
 
 while not correctName:
-    name = input("Who is your favorite cartoon character?").strip()
+    name = input("Who is your favorite cartoon character?")
     if name != "Marvin the Martian":
         print("  You can't be serious.")
     else:

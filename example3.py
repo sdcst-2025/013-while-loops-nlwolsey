@@ -12,9 +12,9 @@ import random
 count = 0
 
 while True:
-    #random.random() creates a random value between 0 and 1
     print("This will be an infinite loop!")
-    delay = random.random() + 1
+    delay = random.random() #random.random() creates a random value between 0 and 1
+    time.sleep(delay)
     count = count + 1
     if count > 50:
         break
