@@ -46,7 +46,11 @@ any more and the program will end.
 ##### Problem 2
 Have the user enter a number.
 Display the multiples of that number, up to 12 times that number:
-All numbers should be on the same line.
+All numbers should be on the same line.  You can make use of:
+```
+print(output, end="") 
+```
+to prevent line breaks.
 (2 marks)
 
 ##### Problem 3
