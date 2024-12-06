@@ -13,3 +13,14 @@ after the number in the sequence is greater than 100:
 Example:
 1 1 2 3 5 ...
 """
+var1= 1
+var2= 1
+list = [1,1]
+s=0
+while s<100:
+    s= var1+var2 
+    var1=var2
+    var2=s
+    if s<100:
+        list.append (s)
+print (list)
